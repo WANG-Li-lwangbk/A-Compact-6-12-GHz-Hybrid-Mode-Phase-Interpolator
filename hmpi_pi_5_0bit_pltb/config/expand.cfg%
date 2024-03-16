@@ -1,0 +1,20 @@
+//Revision 3
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config hmpi_pi_5_0bit_pltb;
+design A_bidi_trx_li.hmpi_pi_5_0bit_pltb:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+cell A_bidi_trx_li.hmpi_pi_macro_layout binding :schematic;
+
+
+endconfig
